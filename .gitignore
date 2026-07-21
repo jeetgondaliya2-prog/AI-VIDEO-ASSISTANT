@@ -1,0 +1,131 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled files
+*.so
+*.pyd
+*.dll
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===========================
+# Virtual Environment
+# ===========================
+venv/
+.venv/
+env/
+ENV/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+.history/
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Streamlit
+# ===========================
+.streamlit/secrets.toml
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Cache
+# ===========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===========================
+# Chroma Vector Database
+# ===========================
+chroma_db/
+chroma-db/
+vector_db/
+vectordb/
+
+# ===========================
+# Temporary Files
+# ===========================
+temp/
+tmp/
+*.tmp
+
+# ===========================
+# Audio & Video (Generated)
+# ===========================
+downloads/
+audio/
+videos/
+recordings/
+transcripts/
+
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.mp4
+*.mkv
+
+# ===========================
+# Whisper Models (Optional)
+# ===========================
+models/
+whisper_models/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Coverage
+# ===========================
+.coverage
+htmlcov/
+
+# ===========================
+# Testing
+# ===========================
+.pytest_cache/
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+
+# ===========================
+# Misc
+# ===========================
+*.bak
+*.swp
+*.swo
