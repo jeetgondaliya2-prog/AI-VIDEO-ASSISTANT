@@ -72,8 +72,7 @@ AI-VIDEO-ASSISTANT/
 │   └── __init__.py
 │
 ├── utils/
-│   ├── helper.py                 # Utility functions
-│   ├── constants.py              # Global constants
+│   ├── audio_processor.py        # Utility functions
 │   └── __init__.py
 │
 ├── app.py                        # Streamlit Web App
